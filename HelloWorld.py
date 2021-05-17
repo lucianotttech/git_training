@@ -1,4 +1,4 @@
-#from library import Animal
+from library import Animal
 
 
 def print_numbers():
@@ -10,8 +10,6 @@ print('Hello World')
 
 print_numbers()
 
-'''
 felix = Animal("grey")
 print("Felix's color is: {}".format(felix.color))
 felix.run()
-'''

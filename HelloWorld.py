@@ -6,7 +6,7 @@ def print_numbers():
         print(index + 1)
 
 
-print('Hello Wlrod')
+print('Hello World')
 
 print_numbers()
 

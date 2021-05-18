@@ -6,7 +6,17 @@ def print_numbers():
         print(index + 1)
 
 
+def even_or_odd(number):
+    print("Number {} is".format(number), end=" ")
+    if(number % 2):
+        print("odd")
+    else:
+        print("even")
+
+
 print('Hello World')
+even_or_odd(3)
+even_or_odd(8)
 
 print_numbers()
 
